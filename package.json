@@ -1,7 +1,6 @@
 {
   "name": "d",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,11 @@
   "bugs": {
     "url": "https://github.com/Hennessy666/Burger/issues"
   },
-  "homepage": "https://github.com/Hennessy666/Burger#readme"
+  "homepage": "https://github.com/Hennessy666/Burger#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
+  }
 }
