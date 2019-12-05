@@ -26,4 +26,9 @@ const orm = {
             cb(res);
         }); 
     }
+updateOne: function(table, objColVals, condition, cb){
+    var dbQuery = 
+    "UPDATE" + 
+    table + " SET " + translateSql(objColVals) + " S"
+}
 };
